@@ -1,10 +1,12 @@
 package example.weather;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import example.person.Person;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
