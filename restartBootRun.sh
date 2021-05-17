@@ -1,4 +1,4 @@
 #restart application
 ./gradlew -stop
-./source .env
+source .env
 ./gradlew bootRun
